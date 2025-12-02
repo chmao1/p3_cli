@@ -97,7 +97,7 @@ use Bio::KBase::AppService::ReadSpec;
 use Bio::KBase::AppService::UploadSpec;
 use Bio::KBase::AppService::GenomeIdSpec;
 
-use constant CALLERS => { 'FreeBayes' => 1, 'BCFtools' => 1, 'Snippy' => 1};
+use constant CALLERS => { 'FreeBayes' => 1, 'BCFtools' => 1, 'Snippy' => 1 };
 use constant MAPPERS => { 'BWA-mem' => 1, 'BWA-mem-strict' => 1, 'Bowtie2' => 1, 'LAST' => 1, 'minimap2' => 1, 'Snippy' => 1 };
 
 # Insure we're logged in.
